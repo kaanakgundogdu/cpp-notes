@@ -1,0 +1,5 @@
+[{
+  "file": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\1-Challenge1\\main.cpp",
+  "directory": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\1-Challenge1",
+  "command": "\"\"C:/Program Files/mingw-w64/mingw64/bin/g++.exe\"\" -c C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\1-Challenge1\\main.cpp -o C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\1-Challenge1\\main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall"
+ }]
