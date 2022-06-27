@@ -1,47 +1,26 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# CodeLite IDE
+/build-release/
 *.mk
-*.txt
-*.project
-*.workspace
-compile_commands.json
-Makefile
+*.dll
+*.exe
 .codelite/
-*.session
-*.tags
+*.xrc
+*.txt
+!CMakeLists.txt
+*.gch
+.clangd/
+*.a
 tags
-
-# Builds
+Makefile
+build-Debug/
+build-Win*/
 Debug/
+Release/
+build-Debug*/
+*build-debug*/
+build-*release*/
+build-*debug*/
+.cache/
+ctags/
+.ctagsd/
+compile_commands.json
+compile_flags.txt
