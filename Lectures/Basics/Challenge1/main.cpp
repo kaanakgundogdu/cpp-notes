@@ -7,8 +7,8 @@ int main(){
     
     std::cin>>fav_Number;
     
-    std::cout<<"Amazing!! That's my favorite number too!!"<<std::endl;
-    std::cout<<"No really!! " << fav_Number << " my favorite number too!!"<<std::endl;
+    std::cout<<"Amazing!! That's my favorite number too!"<<std::endl;
+    std::cout<<"No really!! " << fav_Number << " is my favorite number!"<<std::endl;
 
     
     return 0;
