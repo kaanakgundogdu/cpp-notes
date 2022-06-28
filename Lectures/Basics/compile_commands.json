@@ -1,4 +1,8 @@
 [{
+  "file": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\03-Basic-IO\\main.cpp",
+  "directory": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\03-Basic-IO",
+  "command": "\"\"C:/Program Files/mingw-w64/mingw64/bin/g++.exe\"\" -c C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\03-Basic-IO\\main.cpp -o C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\03-Basic-IO\\main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall"
+ }, {
   "file": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Comments\\main.cpp",
   "directory": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Comments",
   "command": "\"\"C:/Program Files/mingw-w64/mingw64/bin/g++.exe\"\" -c C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Comments\\main.cpp -o C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Comments\\main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall"
