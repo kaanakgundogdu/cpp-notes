@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 04-Variables - Debug ]----------"
-	@cd "04-Variables" && "$(MAKE)" -f  "04-Variables.mk"
+	@echo "----------Building project:[ 05-AreaOfSquareFeet - Debug ]----------"
+	@cd "05-AreaOfSquareFeet" && "$(MAKE)" -f  "05-AreaOfSquareFeet.mk"
 clean:
-	@echo "----------Cleaning project:[ 04-Variables - Debug ]----------"
-	@cd "04-Variables" && "$(MAKE)" -f  "04-Variables.mk" clean
+	@echo "----------Cleaning project:[ 05-AreaOfSquareFeet - Debug ]----------"
+	@cd "05-AreaOfSquareFeet" && "$(MAKE)" -f  "05-AreaOfSquareFeet.mk" clean

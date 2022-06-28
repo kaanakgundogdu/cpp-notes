@@ -3,7 +3,8 @@
   <Project Name="01-Challenge1" Path="Challenge1/Challenge1.project" Active="No"/>
   <Project Name="02-Comments" Path="Comments/Comments.project" Active="No"/>
   <Project Name="03-Basic-IO" Path="03-Basic-IO/03-Basic-IO.project" Active="No"/>
-  <Project Name="04-Variables" Path="04-Variables/04-Variables.project" Active="Yes"/>
+  <Project Name="04-Variables" Path="04-Variables/04-Variables.project" Active="No"/>
+  <Project Name="05-AreaOfSquareFeet" Path="05-AreaOfSquareFeet/05-AreaOfSquareFeet.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="02-Comments" ConfigName="Debug"/>
       <Project Name="03-Basic-IO" ConfigName="Debug"/>
       <Project Name="04-Variables" ConfigName="Debug"/>
+      <Project Name="05-AreaOfSquareFeet" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="02-Comments" ConfigName="Release"/>
       <Project Name="03-Basic-IO" ConfigName="Release"/>
       <Project Name="04-Variables" ConfigName="Release"/>
+      <Project Name="05-AreaOfSquareFeet" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
