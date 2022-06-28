@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Basics" Database="" Version="10000">
   <Project Name="01-Challenge1" Path="Challenge1/Challenge1.project" Active="No"/>
   <Project Name="02-Comments" Path="Comments/Comments.project" Active="No"/>
-  <Project Name="03-Basic-IO" Path="03-Basic-IO/03-Basic-IO.project" Active="Yes"/>
+  <Project Name="03-Basic-IO" Path="03-Basic-IO/03-Basic-IO.project" Active="No"/>
+  <Project Name="04-Variables" Path="04-Variables/04-Variables.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Challenge1" ConfigName="Debug"/>
       <Project Name="02-Comments" ConfigName="Debug"/>
       <Project Name="03-Basic-IO" ConfigName="Debug"/>
+      <Project Name="04-Variables" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Challenge1" ConfigName="Release"/>
       <Project Name="02-Comments" ConfigName="Release"/>
       <Project Name="03-Basic-IO" ConfigName="Release"/>
+      <Project Name="04-Variables" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

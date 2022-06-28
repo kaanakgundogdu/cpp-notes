@@ -7,6 +7,10 @@
   "directory": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Comments",
   "command": "\"\"C:/Program Files/mingw-w64/mingw64/bin/g++.exe\"\" -c C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Comments\\main.cpp -o C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Comments\\main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall"
  }, {
+  "file": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\04-Variables\\main.cpp",
+  "directory": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\04-Variables",
+  "command": "\"\"C:/Program Files/mingw-w64/mingw64/bin/g++.exe\"\" -c C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\04-Variables\\main.cpp -o C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\04-Variables\\main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall"
+ }, {
   "file": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Challenge1\\main.cpp",
   "directory": "C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Challenge1",
   "command": "\"\"C:/Program Files/mingw-w64/mingw64/bin/g++.exe\"\" -c C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Challenge1\\main.cpp -o C:\\Users\\Kaan\\Documents\\GitHub\\cpp-notes\\Lectures\\Basics\\Challenge1\\main.cpp.o  -I. -I.  -g  -O0  -std=c++17  -Wall"
