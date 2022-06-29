@@ -2,7 +2,7 @@
 
 All:
 	@echo "----------Building project:[ 02-Comments - Debug ]----------"
-	@cd "Comments" && "$(MAKE)" -f  "02-Comments.mk"
+	@cd "02-Comments" && "$(MAKE)" -f  "02-Comments.mk"
 clean:
 	@echo "----------Cleaning project:[ 02-Comments - Debug ]----------"
-	@cd "Comments" && "$(MAKE)" -f  "02-Comments.mk" clean
+	@cd "02-Comments" && "$(MAKE)" -f  "02-Comments.mk" clean
