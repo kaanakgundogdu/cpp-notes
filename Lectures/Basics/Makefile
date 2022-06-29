@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 06-GlobalVariables - Debug ]----------"
-	@cd "06-GlobalVariables" && "$(MAKE)" -f  "06-GlobalVariables.mk"
+	@echo "----------Building project:[ 07-Primitive-Data-Types - Debug ]----------"
+	@cd "07-Primitive-Data-Types" && "$(MAKE)" -f  "07-Primitive-Data-Types.mk"
 clean:
-	@echo "----------Cleaning project:[ 06-GlobalVariables - Debug ]----------"
-	@cd "06-GlobalVariables" && "$(MAKE)" -f  "06-GlobalVariables.mk" clean
+	@echo "----------Cleaning project:[ 07-Primitive-Data-Types - Debug ]----------"
+	@cd "07-Primitive-Data-Types" && "$(MAKE)" -f  "07-Primitive-Data-Types.mk" clean
