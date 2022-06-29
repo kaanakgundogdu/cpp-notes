@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Basics" Database="" Version="10000">
   <Project Name="01-Challenge1" Path="Challenge1/Challenge1.project" Active="No"/>
-  <Project Name="02-Comments" Path="Comments/Comments.project" Active="No"/>
+  <Project Name="02-Comments" Path="Comments/Comments.project" Active="Yes"/>
   <Project Name="03-Basic-IO" Path="03-Basic-IO/03-Basic-IO.project" Active="No"/>
   <Project Name="04-Variables" Path="04-Variables/04-Variables.project" Active="No"/>
   <Project Name="05-AreaOfSquareFeet" Path="05-AreaOfSquareFeet/05-AreaOfSquareFeet.project" Active="No"/>
   <Project Name="06-GlobalVariables" Path="06-GlobalVariables/06-GlobalVariables.project" Active="No"/>
   <Project Name="07-Primitive-Data-Types" Path="07-Primitive-Data-Types/07-Primitive-Data-Types.project" Active="No"/>
-  <Project Name="08-SizeOf" Path="08-SizeOf/08-SizeOf.project" Active="Yes"/>
+  <Project Name="08-SizeOf" Path="08-SizeOf/08-SizeOf.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
