@@ -3,5 +3,6 @@ C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\05-AreaOfSquareFeet\mai
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\03-Basic-IO\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\07-Primitive-Data-Types\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\Comments\main.cpp
+C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\08-SizeOf\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\04-Variables\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\Challenge1\main.cpp

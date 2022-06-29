@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 07-Primitive-Data-Types - Debug ]----------"
-	@cd "07-Primitive-Data-Types" && "$(MAKE)" -f  "07-Primitive-Data-Types.mk"
+	@echo "----------Building project:[ 08-SizeOf - Debug ]----------"
+	@cd "08-SizeOf" && "$(MAKE)" -f  "08-SizeOf.mk"
 clean:
-	@echo "----------Cleaning project:[ 07-Primitive-Data-Types - Debug ]----------"
-	@cd "07-Primitive-Data-Types" && "$(MAKE)" -f  "07-Primitive-Data-Types.mk" clean
+	@echo "----------Cleaning project:[ 08-SizeOf - Debug ]----------"
+	@cd "08-SizeOf" && "$(MAKE)" -f  "08-SizeOf.mk" clean
