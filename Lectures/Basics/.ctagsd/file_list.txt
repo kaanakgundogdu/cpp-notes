@@ -1,3 +1,5 @@
+C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\10-Challenge2\main.cpp
+C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\09-Constants\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\02-Comments\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\07-Primitive-Data-Types\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\06-GlobalVariables\main.cpp

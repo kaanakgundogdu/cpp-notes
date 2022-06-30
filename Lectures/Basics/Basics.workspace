@@ -7,7 +7,9 @@
   <Project Name="07-Primitive-Data-Types" Path="07-Primitive-Data-Types/07-Primitive-Data-Types.project" Active="No"/>
   <Project Name="08-SizeOf" Path="08-SizeOf/08-SizeOf.project" Active="No"/>
   <Project Name="01-Challenge1" Path="01-Challenge1/01-Challenge1.project" Active="No"/>
-  <Project Name="02-Comments" Path="02-Comments/02-Comments.project" Active="Yes"/>
+  <Project Name="02-Comments" Path="02-Comments/02-Comments.project" Active="No"/>
+  <Project Name="09-Constants" Path="09-Constants/09-Constants.project" Active="No"/>
+  <Project Name="10-Challenge2" Path="10-Challenge2/10-Challenge2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -22,6 +24,8 @@
       <Project Name="02-Comments" ConfigName="Debug"/>
       <Project Name="01-Challenge1" ConfigName="Debug"/>
       <Project Name="02-Comments" ConfigName="Debug"/>
+      <Project Name="09-Constants" ConfigName="Debug"/>
+      <Project Name="10-Challenge2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -36,6 +40,8 @@
       <Project Name="02-Comments" ConfigName="Release"/>
       <Project Name="01-Challenge1" ConfigName="Release"/>
       <Project Name="02-Comments" ConfigName="Release"/>
+      <Project Name="09-Constants" ConfigName="Release"/>
+      <Project Name="10-Challenge2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
