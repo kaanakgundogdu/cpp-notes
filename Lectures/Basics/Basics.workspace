@@ -9,7 +9,14 @@
   <Project Name="01-Challenge1" Path="01-Challenge1/01-Challenge1.project" Active="No"/>
   <Project Name="02-Comments" Path="02-Comments/02-Comments.project" Active="No"/>
   <Project Name="09-Constants" Path="09-Constants/09-Constants.project" Active="No"/>
-  <Project Name="10-Challenge2" Path="10-Challenge2/10-Challenge2.project" Active="Yes"/>
+  <Project Name="10-Challenge2" Path="10-Challenge2/10-Challenge2.project" Active="No"/>
+  <Project Name="11-Arrays" Path="11-Arrays/11-Arrays.project" Active="No"/>
+  <Project Name="12-Vectors" Path="12-Vectors/12-Vectors.project" Active="No"/>
+  <Project Name="13-Challenge3" Path="13-Challenge3/13-Challenge3.project" Active="No"/>
+  <Project Name="14-AssignmentOperators" Path="14-AssignmentOperators/14-AssignmentOperators.project" Active="No"/>
+  <Project Name="15-Arithmetic-Operators" Path="15-Arithmetic-Operators/15-Arithmetic-Operators.project" Active="No"/>
+  <Project Name="16-Convert-Euros-to-Dolars" Path="16-Convert-Euros-to-Dolars/16-Convert-Euros-to-Dolars.project" Active="No"/>
+  <Project Name="17-Increment-Decrement-Operators" Path="17-Increment-Decrement-Operators/17-Increment-Decrement-Operators.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -26,6 +33,13 @@
       <Project Name="02-Comments" ConfigName="Debug"/>
       <Project Name="09-Constants" ConfigName="Debug"/>
       <Project Name="10-Challenge2" ConfigName="Debug"/>
+      <Project Name="11-Arrays" ConfigName="Debug"/>
+      <Project Name="12-Vectors" ConfigName="Debug"/>
+      <Project Name="13-Challenge3" ConfigName="Debug"/>
+      <Project Name="14-AssignmentOperators" ConfigName="Debug"/>
+      <Project Name="15-Arithmetic-Operators" ConfigName="Debug"/>
+      <Project Name="16-Convert-Euros-to-Dolars" ConfigName="Debug"/>
+      <Project Name="17-Increment-Decrement-Operators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -42,6 +56,13 @@
       <Project Name="02-Comments" ConfigName="Release"/>
       <Project Name="09-Constants" ConfigName="Release"/>
       <Project Name="10-Challenge2" ConfigName="Release"/>
+      <Project Name="11-Arrays" ConfigName="Release"/>
+      <Project Name="12-Vectors" ConfigName="Release"/>
+      <Project Name="13-Challenge3" ConfigName="Release"/>
+      <Project Name="14-AssignmentOperators" ConfigName="Release"/>
+      <Project Name="15-Arithmetic-Operators" ConfigName="Release"/>
+      <Project Name="16-Convert-Euros-to-Dolars" ConfigName="Release"/>
+      <Project Name="17-Increment-Decrement-Operators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
