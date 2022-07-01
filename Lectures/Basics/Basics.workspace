@@ -16,7 +16,8 @@
   <Project Name="14-AssignmentOperators" Path="14-AssignmentOperators/14-AssignmentOperators.project" Active="No"/>
   <Project Name="15-Arithmetic-Operators" Path="15-Arithmetic-Operators/15-Arithmetic-Operators.project" Active="No"/>
   <Project Name="16-Convert-Euros-to-Dolars" Path="16-Convert-Euros-to-Dolars/16-Convert-Euros-to-Dolars.project" Active="No"/>
-  <Project Name="17-Increment-Decrement-Operators" Path="17-Increment-Decrement-Operators/17-Increment-Decrement-Operators.project" Active="Yes"/>
+  <Project Name="17-Increment-Decrement-Operators" Path="17-Increment-Decrement-Operators/17-Increment-Decrement-Operators.project" Active="No"/>
+  <Project Name="18-Mixed-Expressions-Conversions" Path="18-Mixed-Expressions-Conversions/18-Mixed-Expressions-Conversions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -40,6 +41,7 @@
       <Project Name="15-Arithmetic-Operators" ConfigName="Debug"/>
       <Project Name="16-Convert-Euros-to-Dolars" ConfigName="Debug"/>
       <Project Name="17-Increment-Decrement-Operators" ConfigName="Debug"/>
+      <Project Name="18-Mixed-Expressions-Conversions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -63,6 +65,7 @@
       <Project Name="15-Arithmetic-Operators" ConfigName="Release"/>
       <Project Name="16-Convert-Euros-to-Dolars" ConfigName="Release"/>
       <Project Name="17-Increment-Decrement-Operators" ConfigName="Release"/>
+      <Project Name="18-Mixed-Expressions-Conversions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
