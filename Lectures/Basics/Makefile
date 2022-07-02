@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 21-switch-case-Statement - Debug ]----------"
-	@cd "21-switch-case-Statement" && "$(MAKE)" -f  "21-switch-case-Statement.mk"
+	@echo "----------Building project:[ 22-Switch-case-with-Enums - Debug ]----------"
+	@cd "22-Switch-case-with-Enums" && "$(MAKE)" -f  "22-Switch-case-with-Enums.mk"
 clean:
-	@echo "----------Cleaning project:[ 21-switch-case-Statement - Debug ]----------"
-	@cd "21-switch-case-Statement" && "$(MAKE)" -f  "21-switch-case-Statement.mk" clean
+	@echo "----------Cleaning project:[ 22-Switch-case-with-Enums - Debug ]----------"
+	@cd "22-Switch-case-with-Enums" && "$(MAKE)" -f  "22-Switch-case-with-Enums.mk" clean

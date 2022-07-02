@@ -16,6 +16,7 @@ C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\17-Increment-Decrement-
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\02-Comments\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\09-Constants\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\11-Arrays\main.cpp
+C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\22-Switch-case-with-Enums\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\14-AssignmentOperators\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\06-GlobalVariables\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\10-Challenge2\main.cpp
