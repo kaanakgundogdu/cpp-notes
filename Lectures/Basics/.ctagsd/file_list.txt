@@ -1,5 +1,6 @@
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\20-IfElse\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\18-Mixed-Expressions-Conversions\main.cpp
+C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\21-switch-case-Statement\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\16-Convert-Euros-to-Dolars\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\15-Arithmetic-Operators\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\19-Challenge4\main.cpp

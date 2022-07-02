@@ -19,7 +19,8 @@
   <Project Name="17-Increment-Decrement-Operators" Path="17-Increment-Decrement-Operators/17-Increment-Decrement-Operators.project" Active="No"/>
   <Project Name="18-Mixed-Expressions-Conversions" Path="18-Mixed-Expressions-Conversions/18-Mixed-Expressions-Conversions.project" Active="No"/>
   <Project Name="19-Challenge4" Path="19-Challenge4/19-Challenge4.project" Active="No"/>
-  <Project Name="20-IfElse" Path="20-IfElse/20-IfElse.project" Active="Yes"/>
+  <Project Name="20-IfElse" Path="20-IfElse/20-IfElse.project" Active="No"/>
+  <Project Name="21-switch-case-Statement" Path="21-switch-case-Statement/21-switch-case-Statement.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -46,6 +47,7 @@
       <Project Name="18-Mixed-Expressions-Conversions" ConfigName="Debug"/>
       <Project Name="19-Challenge4" ConfigName="Debug"/>
       <Project Name="20-IfElse" ConfigName="Debug"/>
+      <Project Name="21-switch-case-Statement" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -72,6 +74,7 @@
       <Project Name="18-Mixed-Expressions-Conversions" ConfigName="Release"/>
       <Project Name="19-Challenge4" ConfigName="Release"/>
       <Project Name="20-IfElse" ConfigName="Release"/>
+      <Project Name="21-switch-case-Statement" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
