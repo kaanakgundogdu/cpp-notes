@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ 23-Conditional-Operator - Debug ]----------"
-	@cd "23-Conditional-Operator" && "$(MAKE)" -f  "23-Conditional-Operator.mk"
+	@echo "----------Building project:[ 24-For-Loop - Debug ]----------"
+	@cd "24-For-Loop" && "$(MAKE)" -f  "24-For-Loop.mk"
 clean:
-	@echo "----------Cleaning project:[ 23-Conditional-Operator - Debug ]----------"
-	@cd "23-Conditional-Operator" && "$(MAKE)" -f  "23-Conditional-Operator.mk" clean
+	@echo "----------Cleaning project:[ 24-For-Loop - Debug ]----------"
+	@cd "24-For-Loop" && "$(MAKE)" -f  "24-For-Loop.mk" clean

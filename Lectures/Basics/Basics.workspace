@@ -22,7 +22,8 @@
   <Project Name="20-IfElse" Path="20-IfElse/20-IfElse.project" Active="No"/>
   <Project Name="21-switch-case-Statement" Path="21-switch-case-Statement/21-switch-case-Statement.project" Active="No"/>
   <Project Name="22-Switch-case-with-Enums" Path="22-Switch-case-with-Enums/22-Switch-case-with-Enums.project" Active="No"/>
-  <Project Name="23-Conditional-Operator" Path="23-Conditional-Operator/23-Conditional-Operator.project" Active="Yes"/>
+  <Project Name="23-Conditional-Operator" Path="23-Conditional-Operator/23-Conditional-Operator.project" Active="No"/>
+  <Project Name="24-For-Loop" Path="24-For-Loop/24-For-Loop.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -52,6 +53,7 @@
       <Project Name="21-switch-case-Statement" ConfigName="Debug"/>
       <Project Name="22-Switch-case-with-Enums" ConfigName="Debug"/>
       <Project Name="23-Conditional-Operator" ConfigName="Debug"/>
+      <Project Name="24-For-Loop" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -81,6 +83,7 @@
       <Project Name="21-switch-case-Statement" ConfigName="Release"/>
       <Project Name="22-Switch-case-with-Enums" ConfigName="Release"/>
       <Project Name="23-Conditional-Operator" ConfigName="Release"/>
+      <Project Name="24-For-Loop" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
