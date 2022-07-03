@@ -1,3 +1,4 @@
+C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\23-Conditional-Operator\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\20-IfElse\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\18-Mixed-Expressions-Conversions\main.cpp
 C:\Users\Kaan\Documents\GitHub\cpp-notes\Lectures\Basics\21-switch-case-Statement\main.cpp
