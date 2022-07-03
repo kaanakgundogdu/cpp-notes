@@ -7,8 +7,6 @@ int main()
     for(int i {0}; i<10;++i){
         std::cout<<i<<std::endl;
     }
-    
-    std::cout<<"\n"<<std::endl;
 
     
     for (int i {1}, j {4}; i<=5; ++i,++j){
@@ -23,8 +21,12 @@ int main()
         std::cout<<nums[i]<<std::endl;
     }
     
-
+    // range-based for Loop
     
+    std::cout<<"\nrange-based for Loop"<<std::endl;
+    for(int num:nums){
+        std::cout<<num<<std::endl;
+    }
     
 	return 0;
 }
