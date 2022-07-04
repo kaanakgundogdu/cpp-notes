@@ -24,7 +24,8 @@
   <Project Name="22-Switch-case-with-Enums" Path="22-Switch-case-with-Enums/22-Switch-case-with-Enums.project" Active="No"/>
   <Project Name="23-Conditional-Operator" Path="23-Conditional-Operator/23-Conditional-Operator.project" Active="No"/>
   <Project Name="24-For-Loop" Path="24-For-Loop/24-For-Loop.project" Active="No"/>
-  <Project Name="25-While-Loops" Path="25-While-Loops/25-While-Loops.project" Active="Yes"/>
+  <Project Name="25-While-Loops" Path="25-While-Loops/25-While-Loops.project" Active="No"/>
+  <Project Name="26-Do-while" Path="26-Do-while/26-Do-while.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -56,6 +57,7 @@
       <Project Name="23-Conditional-Operator" ConfigName="Debug"/>
       <Project Name="24-For-Loop" ConfigName="Debug"/>
       <Project Name="25-While-Loops" ConfigName="Debug"/>
+      <Project Name="26-Do-while" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -87,6 +89,7 @@
       <Project Name="23-Conditional-Operator" ConfigName="Release"/>
       <Project Name="24-For-Loop" ConfigName="Release"/>
       <Project Name="25-While-Loops" ConfigName="Release"/>
+      <Project Name="26-Do-while" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
