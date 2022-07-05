@@ -7,7 +7,6 @@ int main()
     char first_name[20] {};
     char last_name[20] {};
     char full_name[20] {};
-    char temp[50];
     
     
     std::cout<<"Please enter your first name: ";
