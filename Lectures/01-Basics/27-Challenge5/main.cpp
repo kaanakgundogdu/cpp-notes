@@ -53,7 +53,7 @@ int main()
                 std::cout<<"\nVector is empty\n"<<std::endl;
             }
             else{
-                int smallest=0;
+                int smallest=numbers[0];
                 for(auto i:numbers){
                     if(i<smallest)
                         smallest=i;
