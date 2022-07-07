@@ -3,7 +3,8 @@
   <Project Name="01-C-Style-Strings" Path="01-C-Style-Strings/01-C-Style-Strings.project" Active="No"/>
   <Project Name="02-c-style-strings-part2" Path="02-c-style-strings-part2/02-c-style-strings-part2.project" Active="No"/>
   <Project Name="03-cpp-style-strings-part1" Path="03-cpp-style-strings-part1/03-cpp-style-strings-part1.project" Active="No"/>
-  <Project Name="04-Challenge-Strings" Path="04-Challenge-Strings/04-Challenge-Strings.project" Active="Yes"/>
+  <Project Name="04-Challenge-Strings" Path="04-Challenge-Strings/04-Challenge-Strings.project" Active="No"/>
+  <Project Name="05-Assignment-Answer" Path="05-Assignment-Answer/05-Assignment-Answer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="02-c-style-strings-part2" ConfigName="Debug"/>
       <Project Name="03-cpp-style-strings-part1" ConfigName="Debug"/>
       <Project Name="04-Challenge-Strings" ConfigName="Debug"/>
+      <Project Name="05-Assignment-Answer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="02-c-style-strings-part2" ConfigName="Release"/>
       <Project Name="03-cpp-style-strings-part1" ConfigName="Release"/>
       <Project Name="04-Challenge-Strings" ConfigName="Release"/>
+      <Project Name="05-Assignment-Answer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
