@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Functions" Database="" Version="10000">
   <Project Name="01-Math" Path="01-Math/01-Math.project" Active="No"/>
-  <Project Name="02-Random" Path="02-Random/02-Random.project" Active="Yes"/>
+  <Project Name="02-Random" Path="02-Random/02-Random.project" Active="No"/>
+  <Project Name="03-Function-Definition" Path="03-Function-Definition/03-Function-Definition.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Math" ConfigName="Debug"/>
       <Project Name="02-Random" ConfigName="Debug"/>
+      <Project Name="03-Function-Definition" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Math" ConfigName="Release"/>
       <Project Name="02-Random" ConfigName="Release"/>
+      <Project Name="03-Function-Definition" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
