@@ -3,7 +3,8 @@
   <Project Name="01-Math" Path="01-Math/01-Math.project" Active="No"/>
   <Project Name="02-Random" Path="02-Random/02-Random.project" Active="No"/>
   <Project Name="03-Function-Definition" Path="03-Function-Definition/03-Function-Definition.project" Active="No"/>
-  <Project Name="04-Function-Prototypes" Path="04-Function-Prototypes/04-Function-Prototypes.project" Active="Yes"/>
+  <Project Name="04-Function-Prototypes" Path="04-Function-Prototypes/04-Function-Prototypes.project" Active="No"/>
+  <Project Name="05-Function-Parameters-and-the-return-Statement" Path="05-Function-Parameters-and-the-return-Statement/05-Function-Parameters-and-the-return-Statement.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="02-Random" ConfigName="Debug"/>
       <Project Name="03-Function-Definition" ConfigName="Debug"/>
       <Project Name="04-Function-Prototypes" ConfigName="Debug"/>
+      <Project Name="05-Function-Parameters-and-the-return-Statement" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="02-Random" ConfigName="Release"/>
       <Project Name="03-Function-Definition" ConfigName="Release"/>
       <Project Name="04-Function-Prototypes" ConfigName="Release"/>
+      <Project Name="05-Function-Parameters-and-the-return-Statement" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
