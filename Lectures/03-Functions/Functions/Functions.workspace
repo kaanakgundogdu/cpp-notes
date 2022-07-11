@@ -8,7 +8,8 @@
   <Project Name="06-Default-Argument-Values" Path="06-Default-Argument-Values/06-Default-Argument-Values.project" Active="No"/>
   <Project Name="07-Overloading-Functions" Path="07-Overloading-Functions/07-Overloading-Functions.project" Active="No"/>
   <Project Name="08-Overloading-exercise" Path="08-Overloading-exercise/08-Overloading-exercise.project" Active="No"/>
-  <Project Name="09-Passing-Arrays-to-Functions" Path="09-Passing-Arrays-to-Functions/09-Passing-Arrays-to-Functions.project" Active="Yes"/>
+  <Project Name="09-Passing-Arrays-to-Functions" Path="09-Passing-Arrays-to-Functions/09-Passing-Arrays-to-Functions.project" Active="No"/>
+  <Project Name="10-Pass-by-Reference" Path="10-Pass-by-Reference/10-Pass-by-Reference.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -21,6 +22,7 @@
       <Project Name="07-Overloading-Functions" ConfigName="Debug"/>
       <Project Name="08-Overloading-exercise" ConfigName="Debug"/>
       <Project Name="09-Passing-Arrays-to-Functions" ConfigName="Debug"/>
+      <Project Name="10-Pass-by-Reference" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -33,6 +35,7 @@
       <Project Name="07-Overloading-Functions" ConfigName="Release"/>
       <Project Name="08-Overloading-exercise" ConfigName="Release"/>
       <Project Name="09-Passing-Arrays-to-Functions" ConfigName="Release"/>
+      <Project Name="10-Pass-by-Reference" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
