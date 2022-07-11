@@ -5,7 +5,8 @@
   <Project Name="03-Function-Definition" Path="03-Function-Definition/03-Function-Definition.project" Active="No"/>
   <Project Name="04-Function-Prototypes" Path="04-Function-Prototypes/04-Function-Prototypes.project" Active="No"/>
   <Project Name="05-Function-Parameters-and-the-return-Statement" Path="05-Function-Parameters-and-the-return-Statement/05-Function-Parameters-and-the-return-Statement.project" Active="No"/>
-  <Project Name="06-Default-Argument-Values" Path="06-Default-Argument-Values/06-Default-Argument-Values.project" Active="Yes"/>
+  <Project Name="06-Default-Argument-Values" Path="06-Default-Argument-Values/06-Default-Argument-Values.project" Active="No"/>
+  <Project Name="07-Overloading-Functions" Path="07-Overloading-Functions/07-Overloading-Functions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -15,6 +16,7 @@
       <Project Name="04-Function-Prototypes" ConfigName="Debug"/>
       <Project Name="05-Function-Parameters-and-the-return-Statement" ConfigName="Debug"/>
       <Project Name="06-Default-Argument-Values" ConfigName="Debug"/>
+      <Project Name="07-Overloading-Functions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -24,6 +26,7 @@
       <Project Name="04-Function-Prototypes" ConfigName="Release"/>
       <Project Name="05-Function-Parameters-and-the-return-Statement" ConfigName="Release"/>
       <Project Name="06-Default-Argument-Values" ConfigName="Release"/>
+      <Project Name="07-Overloading-Functions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
