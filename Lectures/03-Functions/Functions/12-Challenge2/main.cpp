@@ -5,19 +5,52 @@
 
 void print_menu();
 char input_to_upper(char);
-void print_numbers();
-void add_number();
-void calculate_mean();
-void display_smallest_num();
-void display_largest_num();
+void print_numbers(const std::vector<int>);
+void add_number(std::vector<int> &numbers);
+void calculate_mean(const std::vector<int>);
+void display_smallest_num(const std::vector<int>);
+void display_largest_num(const std::vector<int>);
 void quit();
 
 int main()
 {
-//    std::vector <int> numbers;
-//    char selection{};
+    std::vector <int> numbers;
+    char selection{};
 
-    std::cout<<"Template"<<std::endl;
+    do{
+        print_menu();
+        std::cout<<"\nEnter your selection: ";
+        std::cin>>selection;
+        selection=input_to_upper(selection);
+
+        if(selection=='P'){
+            print_numbers(numbers);
+        }
+        else if(selection=='A'){
+            add_number(numbers);
+        }
+
+        else if(selection=='M'){
+            calculate_mean(numbers);
+        }
+
+        else if(selection=='S'){
+            display_smallest_num(numbers);
+        }
+
+        else if(selection=='L'){
+            display_largest_num(numbers);
+        }
+
+        else if(selection=='Q'){
+            quit();
+        }
+        else{
+            std::cout<<"Invalid input "<<std::endl;
+        }
+    }
+
+    while(selection!='Q');
 
 
 	return 0;
@@ -43,7 +76,7 @@ void print_numbers(const std::vector<int> numbers){
     std::cout<<"]\n";
 }
 
-void add_number(std::vector<int> numbers){
+void add_number(std::vector<int> &numbers){
     int addedNumber{0};
     std::cout<<"\nEnter an integer: ";
     std::cin>>addedNumber;
