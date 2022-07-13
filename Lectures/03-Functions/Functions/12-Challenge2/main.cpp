@@ -4,7 +4,7 @@
 #include <iomanip>
 
 void print_menu();
-char input_to_upper(char);
+char get_input();
 void print_numbers(const std::vector<int>);
 void add_number(std::vector<int> &numbers);
 void calculate_mean(const std::vector<int>);
@@ -19,9 +19,8 @@ int main()
 
     do{
         print_menu();
-        std::cout<<"\nEnter your selection: ";
-        std::cin>>selection;
-        selection=input_to_upper(selection);
+
+        selection=get_input();
 
         if(selection=='P'){
             print_numbers(numbers);
@@ -64,7 +63,10 @@ void print_menu(){
     std::cout<<"L- Display largest num"<<std::endl;
     std::cout<<"Q- Quit"<<std::endl;
 }
-char input_to_upper(char c){
+char get_input(){
+    char c {};
+    std::cout<<"\nEnter your selection: ";
+    std::cin>>c;
     return toupper(c);
 }
 
