@@ -1,6 +1,10 @@
 #include <iostream>
+#include <cctype>
+#include <vector>
+#include <iomanip>
+
 void print_menu();
-void input_to_upper();
+char input_to_upper(char);
 void print_numbers();
 void add_number();
 void calculate_mean();
@@ -10,6 +14,8 @@ void quit();
 
 int main()
 {
+//    std::vector <int> numbers;
+//    char selection{};
 
     std::cout<<"Template"<<std::endl;
 
@@ -18,32 +24,76 @@ int main()
 }
 
 void print_menu(){
-
+    std::cout<<"P- Print numbers"<<std::endl;
+    std::cout<<"A- Add a number"<<std::endl;
+    std::cout<<"M- Mean of numbers"<<std::endl;
+    std::cout<<"S- Display smallest num"<<std::endl;
+    std::cout<<"L- Display largest num"<<std::endl;
+    std::cout<<"Q- Quit"<<std::endl;
 }
-void input_to_upper(){
-
-}
-
-void print_numbers(){
-
-}
-
-void add_number(){
-
+char input_to_upper(char c){
+    return toupper(c);
 }
 
-void calculate_mean(){
-
+void print_numbers(const std::vector<int> numbers){
+    std::cout<<"\n[ ";
+    for(unsigned i{0}; i<numbers.size();++i){
+        std::cout<<numbers[i]<<" ";
+    }
+    std::cout<<"]\n";
 }
 
-void display_smallest_num(){
-
+void add_number(std::vector<int> numbers){
+    int addedNumber{0};
+    std::cout<<"\nEnter an integer: ";
+    std::cin>>addedNumber;
+    numbers.push_back(addedNumber);
 }
 
-void display_largest_num(){
+void calculate_mean(const std::vector<int> numbers){
+    if(numbers.size()==0){
+        std::cout<<"\nVector is empty\n"<<std::endl;
+    }
+    else{
+        int sum=0;
+        double mean;
+        for(auto i:numbers){
+            sum+=i;
+        }
+        mean=static_cast<double>(sum)/numbers.size();
+        std::cout<<std::fixed<<std::setprecision(1);
+        std::cout<<"\nMean is "<<mean<<"\n"<<std::endl;
+    }
+}
 
+void display_smallest_num(const std::vector<int> numbers){
+    if(numbers.size()==0){
+        std::cout<<"\nVector is empty\n"<<std::endl;
+    }
+    else{
+        int smallest=numbers[0];
+        for(auto i:numbers){
+            if(i<smallest)
+                smallest=i;
+        }
+        std::cout<<"\nSmallest number is: "<<smallest<<"\n"<<std::endl;
+    }
+}
+
+void display_largest_num(const std::vector<int> numbers){
+    if(numbers.size()==0){
+        std::cout<<"\nVector is empty\n"<<std::endl;
+    }
+    else{
+        int biggest=0;
+        for(auto i:numbers){
+            if(i>biggest)
+                biggest=i;
+        }
+        std::cout<<"\nLargest number is: "<<biggest<<"\n"<<std::endl;
+    }
 }
 
 void quit(){
-
+    std::cout<<"Sayanora."<<std::endl;
 }
