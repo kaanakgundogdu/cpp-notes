@@ -4,7 +4,8 @@
   <Project Name="02-Dereferencing-Pointer" Path="02-Dereferencing-Pointer/02-Dereferencing-Pointer.project" Active="No"/>
   <Project Name="03-Dynamic-Memory-Allocation" Path="03-Dynamic-Memory-Allocation/03-Dynamic-Memory-Allocation.project" Active="No"/>
   <Project Name="04-Arrays-and-Pointers" Path="04-Arrays-and-Pointers/04-Arrays-and-Pointers.project" Active="No"/>
-  <Project Name="05-Pointer-Arithmetic" Path="05-Pointer-Arithmetic/05-Pointer-Arithmetic.project" Active="Yes"/>
+  <Project Name="05-Pointer-Arithmetic" Path="05-Pointer-Arithmetic/05-Pointer-Arithmetic.project" Active="No"/>
+  <Project Name="06-Passing-Pointers-to-Function" Path="06-Passing-Pointers-to-Function/06-Passing-Pointers-to-Function.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -13,6 +14,7 @@
       <Project Name="03-Dynamic-Memory-Allocation" ConfigName="Debug"/>
       <Project Name="04-Arrays-and-Pointers" ConfigName="Debug"/>
       <Project Name="05-Pointer-Arithmetic" ConfigName="Debug"/>
+      <Project Name="06-Passing-Pointers-to-Function" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -21,6 +23,7 @@
       <Project Name="03-Dynamic-Memory-Allocation" ConfigName="Release"/>
       <Project Name="04-Arrays-and-Pointers" ConfigName="Release"/>
       <Project Name="05-Pointer-Arithmetic" ConfigName="Release"/>
+      <Project Name="06-Passing-Pointers-to-Function" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
