@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Pointers" Database="" Version="10000">
   <Project Name="01-Pointer-Address-and-Storing-Address" Path="01-Pointer-Address-and-Storing-Address/01-Pointer-Address-and-Storing-Address.project" Active="No"/>
   <Project Name="02-Dereferencing-Pointer" Path="02-Dereferencing-Pointer/02-Dereferencing-Pointer.project" Active="No"/>
-  <Project Name="03-Dynamic-Memory-Allocation" Path="03-Dynamic-Memory-Allocation/03-Dynamic-Memory-Allocation.project" Active="Yes"/>
+  <Project Name="03-Dynamic-Memory-Allocation" Path="03-Dynamic-Memory-Allocation/03-Dynamic-Memory-Allocation.project" Active="No"/>
+  <Project Name="04-Arrays-and-Pointers" Path="04-Arrays-and-Pointers/04-Arrays-and-Pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Pointer-Address-and-Storing-Address" ConfigName="Debug"/>
       <Project Name="02-Dereferencing-Pointer" ConfigName="Debug"/>
       <Project Name="03-Dynamic-Memory-Allocation" ConfigName="Debug"/>
+      <Project Name="04-Arrays-and-Pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Pointer-Address-and-Storing-Address" ConfigName="Release"/>
       <Project Name="02-Dereferencing-Pointer" ConfigName="Release"/>
       <Project Name="03-Dynamic-Memory-Allocation" ConfigName="Release"/>
+      <Project Name="04-Arrays-and-Pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
