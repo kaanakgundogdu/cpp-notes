@@ -6,7 +6,8 @@
   <Project Name="04-Arrays-and-Pointers" Path="04-Arrays-and-Pointers/04-Arrays-and-Pointers.project" Active="No"/>
   <Project Name="05-Pointer-Arithmetic" Path="05-Pointer-Arithmetic/05-Pointer-Arithmetic.project" Active="No"/>
   <Project Name="06-Passing-Pointers-to-Function" Path="06-Passing-Pointers-to-Function/06-Passing-Pointers-to-Function.project" Active="No"/>
-  <Project Name="07-Returning-Pointer-from-Function" Path="07-Returning-Pointer-from-Function/07-Returning-Pointer-from-Function.project" Active="Yes"/>
+  <Project Name="07-Returning-Pointer-from-Function" Path="07-Returning-Pointer-from-Function/07-Returning-Pointer-from-Function.project" Active="No"/>
+  <Project Name="08-Reference-On-For-Loops" Path="08-Reference-On-For-Loops/08-Reference-On-For-Loops.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="05-Pointer-Arithmetic" ConfigName="Debug"/>
       <Project Name="06-Passing-Pointers-to-Function" ConfigName="Debug"/>
       <Project Name="07-Returning-Pointer-from-Function" ConfigName="Debug"/>
+      <Project Name="08-Reference-On-For-Loops" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="05-Pointer-Arithmetic" ConfigName="Release"/>
       <Project Name="06-Passing-Pointers-to-Function" ConfigName="Release"/>
       <Project Name="07-Returning-Pointer-from-Function" ConfigName="Release"/>
+      <Project Name="08-Reference-On-For-Loops" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
