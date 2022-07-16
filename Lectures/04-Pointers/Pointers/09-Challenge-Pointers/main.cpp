@@ -29,7 +29,7 @@ int main()
 
     std::cout<<std::endl;
 
-
+    delete [] result;
 	return 0;
 }
 
