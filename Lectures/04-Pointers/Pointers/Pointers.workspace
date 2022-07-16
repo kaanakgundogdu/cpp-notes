@@ -7,7 +7,8 @@
   <Project Name="05-Pointer-Arithmetic" Path="05-Pointer-Arithmetic/05-Pointer-Arithmetic.project" Active="No"/>
   <Project Name="06-Passing-Pointers-to-Function" Path="06-Passing-Pointers-to-Function/06-Passing-Pointers-to-Function.project" Active="No"/>
   <Project Name="07-Returning-Pointer-from-Function" Path="07-Returning-Pointer-from-Function/07-Returning-Pointer-from-Function.project" Active="No"/>
-  <Project Name="08-Reference-On-For-Loops" Path="08-Reference-On-For-Loops/08-Reference-On-For-Loops.project" Active="Yes"/>
+  <Project Name="08-Reference-On-For-Loops" Path="08-Reference-On-For-Loops/08-Reference-On-For-Loops.project" Active="No"/>
+  <Project Name="09-Challenge-Pointers" Path="09-Challenge-Pointers/09-Challenge-Pointers.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -19,6 +20,7 @@
       <Project Name="06-Passing-Pointers-to-Function" ConfigName="Debug"/>
       <Project Name="07-Returning-Pointer-from-Function" ConfigName="Debug"/>
       <Project Name="08-Reference-On-For-Loops" ConfigName="Debug"/>
+      <Project Name="09-Challenge-Pointers" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -30,6 +32,7 @@
       <Project Name="06-Passing-Pointers-to-Function" ConfigName="Release"/>
       <Project Name="07-Returning-Pointer-from-Function" ConfigName="Release"/>
       <Project Name="08-Reference-On-For-Loops" ConfigName="Release"/>
+      <Project Name="09-Challenge-Pointers" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
