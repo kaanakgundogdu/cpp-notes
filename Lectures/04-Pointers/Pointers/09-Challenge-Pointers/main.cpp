@@ -2,8 +2,8 @@
 using namespace std;
 
 
-void print(const int arr[],size_t size);
-int *apply_all(const int arr1[],size_t size1,const int arr2[],size_t size2);
+void print(const int *const arr,size_t size);
+int *apply_all(const int *const arr1,size_t size1,const int *const arr2,size_t size2);
 
 int main()
 {
@@ -33,7 +33,7 @@ int main()
 	return 0;
 }
 
-void print(const int arr[],size_t size){
+void print(const int *const arr,size_t size){
     cout<<"[ ";
     for(size_t i{0}; i<size;++i){
         cout<<arr[i]<<" ";
@@ -41,14 +41,14 @@ void print(const int arr[],size_t size){
     cout<<"]\n";
 }
 
-int *apply_all(const int arr1[],size_t size1,const int arr2[],size_t size2){
+int *apply_all(const int *const arr1,size_t size1,const int *const arr2,size_t size2){
     int *new_storage {nullptr};
     new_storage = new int[size1 * size2];
     int counter {0};
     for(size_t i{0}; i<size2;++i){
         for(size_t j{0};j<size1;++j){
             *(new_storage+counter) = arr2[i] *arr1[j];
-            counter++;
+            ++counter;
         }
     }
     return new_storage;
