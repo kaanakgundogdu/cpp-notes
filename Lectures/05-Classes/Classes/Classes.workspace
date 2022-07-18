@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Classes" Database="" Version="10000">
   <Project Name="01-Classes-Intro" Path="01-Classes-Intro/01-Classes-Intro.project" Active="No"/>
   <Project Name="02-Implementing-Member-Methods" Path="02-Implementing-Member-Methods/02-Implementing-Member-Methods.project" Active="No"/>
-  <Project Name="03-Implementing-Methods2" Path="03-Implementing-Methods2/03-Implementing-Methods2.project" Active="Yes"/>
+  <Project Name="03-Implementing-Methods2" Path="03-Implementing-Methods2/03-Implementing-Methods2.project" Active="No"/>
+  <Project Name="04-Constructors-and-Destructors" Path="04-Constructors-and-Destructors/04-Constructors-and-Destructors.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Classes-Intro" ConfigName="Debug"/>
       <Project Name="02-Implementing-Member-Methods" ConfigName="Debug"/>
       <Project Name="03-Implementing-Methods2" ConfigName="Debug"/>
+      <Project Name="04-Constructors-and-Destructors" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Classes-Intro" ConfigName="Release"/>
       <Project Name="02-Implementing-Member-Methods" ConfigName="Release"/>
       <Project Name="03-Implementing-Methods2" ConfigName="Release"/>
+      <Project Name="04-Constructors-and-Destructors" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
