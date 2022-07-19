@@ -6,7 +6,8 @@
   <Project Name="04-Constructors-and-Destructors" Path="04-Constructors-and-Destructors/04-Constructors-and-Destructors.project" Active="No"/>
   <Project Name="05-Default-Constructor" Path="05-Default-Constructor/05-Default-Constructor.project" Active="No"/>
   <Project Name="06-Constructor-Initialization-lists" Path="06-Constructor-Initialization-lists/06-Constructor-Initialization-lists.project" Active="No"/>
-  <Project Name="07-Delegating-Constructors" Path="07-Delegating-Constructors/07-Delegating-Constructors.project" Active="Yes"/>
+  <Project Name="07-Delegating-Constructors" Path="07-Delegating-Constructors/07-Delegating-Constructors.project" Active="No"/>
+  <Project Name="08-Default-Constructor-Parameters" Path="08-Default-Constructor-Parameters/08-Default-Constructor-Parameters.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="05-Default-Constructor" ConfigName="Debug"/>
       <Project Name="06-Constructor-Initialization-lists" ConfigName="Debug"/>
       <Project Name="07-Delegating-Constructors" ConfigName="Debug"/>
+      <Project Name="08-Default-Constructor-Parameters" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="05-Default-Constructor" ConfigName="Release"/>
       <Project Name="06-Constructor-Initialization-lists" ConfigName="Release"/>
       <Project Name="07-Delegating-Constructors" ConfigName="Release"/>
+      <Project Name="08-Default-Constructor-Parameters" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
