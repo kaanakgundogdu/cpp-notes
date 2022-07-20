@@ -50,7 +50,6 @@ int main()
     vector<Move> move_vector;
 
     move_vector.push_back(Move{10});
-
     move_vector.push_back(Move{20});
     move_vector.push_back(Move{30});
     move_vector.push_back(Move{40});
