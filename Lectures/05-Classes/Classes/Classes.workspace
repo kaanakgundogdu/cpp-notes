@@ -12,7 +12,8 @@
   <Project Name="10-Shallow-Copying" Path="10-Shallow-Copying/10-Shallow-Copying.project" Active="No"/>
   <Project Name="11-Deep-Copying" Path="11-Deep-Copying/11-Deep-Copying.project" Active="No"/>
   <Project Name="12-Move-Constructors" Path="12-Move-Constructors/12-Move-Constructors.project" Active="No"/>
-  <Project Name="13-Using-const-with-Classes" Path="13-Using-const-with-Classes/13-Using-const-with-Classes.project" Active="Yes"/>
+  <Project Name="13-Using-const-with-Classes" Path="13-Using-const-with-Classes/13-Using-const-with-Classes.project" Active="No"/>
+  <Project Name="14-Static-Class-Members" Path="14-Static-Class-Members/14-Static-Class-Members.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -29,6 +30,7 @@
       <Project Name="11-Deep-Copying" ConfigName="Debug"/>
       <Project Name="12-Move-Constructors" ConfigName="Debug"/>
       <Project Name="13-Using-const-with-Classes" ConfigName="Debug"/>
+      <Project Name="14-Static-Class-Members" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -45,6 +47,7 @@
       <Project Name="11-Deep-Copying" ConfigName="Release"/>
       <Project Name="12-Move-Constructors" ConfigName="Release"/>
       <Project Name="13-Using-const-with-Classes" ConfigName="Release"/>
+      <Project Name="14-Static-Class-Members" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
