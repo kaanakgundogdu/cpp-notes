@@ -35,7 +35,7 @@ void Movies::display() const{
     }
     else{
         std::cout<<"\n---------------------------------"<<std::endl;
-        for(Movie movie : movies){
+        for(const Movie &movie : movies){
             movie.display();
         }
 
