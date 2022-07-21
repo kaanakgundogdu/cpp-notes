@@ -13,7 +13,8 @@
   <Project Name="11-Deep-Copying" Path="11-Deep-Copying/11-Deep-Copying.project" Active="No"/>
   <Project Name="12-Move-Constructors" Path="12-Move-Constructors/12-Move-Constructors.project" Active="No"/>
   <Project Name="13-Using-const-with-Classes" Path="13-Using-const-with-Classes/13-Using-const-with-Classes.project" Active="No"/>
-  <Project Name="14-Static-Class-Members" Path="14-Static-Class-Members/14-Static-Class-Members.project" Active="Yes"/>
+  <Project Name="14-Static-Class-Members" Path="14-Static-Class-Members/14-Static-Class-Members.project" Active="No"/>
+  <Project Name="15-Challenge-Answer" Path="15-Challenge-Answer/15-Challenge-Answer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -31,6 +32,7 @@
       <Project Name="12-Move-Constructors" ConfigName="Debug"/>
       <Project Name="13-Using-const-with-Classes" ConfigName="Debug"/>
       <Project Name="14-Static-Class-Members" ConfigName="Debug"/>
+      <Project Name="15-Challenge-Answer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -48,6 +50,7 @@
       <Project Name="12-Move-Constructors" ConfigName="Release"/>
       <Project Name="13-Using-const-with-Classes" ConfigName="Release"/>
       <Project Name="14-Static-Class-Members" ConfigName="Release"/>
+      <Project Name="15-Challenge-Answer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
