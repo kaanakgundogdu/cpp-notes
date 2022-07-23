@@ -38,7 +38,7 @@ Mystring::~Mystring()
 }
 
 
-void Mystring::dislay() const
+void Mystring::display() const
 {
     std::cout<<"String is "<<str<<" and length is "<<get_length()<<std::endl;
 }

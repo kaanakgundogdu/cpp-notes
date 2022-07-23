@@ -1,10 +1,16 @@
 #include <iostream>
+#include "Mystring.h"
+
 
 int main()
 {
-    
-    std::cout<<"Template"<<std::endl;
-    
-    
+    Mystring empty;
+    Mystring kaan{"Kaan"};
+    Mystring copy_str {kaan};
+
+    empty.display();
+    kaan.display();
+    copy_str.display();
+
 	return 0;
 }
