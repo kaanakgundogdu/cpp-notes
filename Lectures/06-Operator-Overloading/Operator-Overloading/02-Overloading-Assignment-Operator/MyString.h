@@ -11,6 +11,9 @@ public:
     MyString(const char *s);
     MyString(const MyString &source);
     ~MyString();
+
+    MyString &operator = (const MyString &righths); //Copy assignment
+
     void display() const;
     int get_length() const;
     const char *get_str() const;

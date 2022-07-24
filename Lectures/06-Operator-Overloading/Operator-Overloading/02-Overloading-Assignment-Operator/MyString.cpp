@@ -37,6 +37,18 @@ MyString::~MyString()
     delete [] str;
 }
 
+MyString &MyString::operator = (const MyString &righths)
+{
+    std::cout<<"Copy assignment"<<std::endl;
+    if(this == &righths){
+        return *this;
+    }
+    delete [] this->str;
+    str=new char(std::strlen(righths.str)+1);
+    std::strcpy(this->str,righths.str);
+    return *this;
+}
+
 
 void MyString::display() const
 {
