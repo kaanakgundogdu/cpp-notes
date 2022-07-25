@@ -69,6 +69,27 @@ MyString &MyString::operator = (MyString &&righths)
     return *this;
 }
 
+MyString MyString::operator-() const{
+    char *buff= new char(std::strlen(str)+1);
+    std::strcpy(buff,str);
+    for(size_t i=0;i<std::strlen(buff); i++){
+        buff[i]=std::tolower(buff[i]);
+    }
+    MyString temp (buff);
+
+    delete [] buff;
+    return temp;
+}
+
+MyString MyString::operator+(const MyString &righths) const{
+    char *buff= new char(std::strlen(str) + std::strlen(righths.str) + 1);
+    std::strcpy(buff,str);
+    std::strcat(buff,righths.str);
+
+    MyString temp (buff);
+    delete [] buff;
+    return temp;
+}
 
 
 void MyString::display() const
