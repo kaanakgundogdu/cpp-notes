@@ -3,7 +3,8 @@
   <Project Name="01-Operator-Overloading" Path="01-Operator-Overloading/01-Operator-Overloading.project" Active="No"/>
   <Project Name="02-Overloading-Assignment-Operator" Path="02-Overloading-Assignment-Operator/02-Overloading-Assignment-Operator.project" Active="No"/>
   <Project Name="03-Overloading-Assignment-Move" Path="03-Overloading-Assignment-Move/03-Overloading-Assignment-Move.project" Active="No"/>
-  <Project Name="04-Overloading-Operators-Member-Functions" Path="04-Overloading-Operators-Member-Functions/04-Overloading-Operators-Member-Functions.project" Active="Yes"/>
+  <Project Name="04-Overloading-Operators-Member-Functions" Path="04-Overloading-Operators-Member-Functions/04-Overloading-Operators-Member-Functions.project" Active="No"/>
+  <Project Name="05-Overloading-Operators-Global-Functions" Path="05-Overloading-Operators-Global-Functions/05-Overloading-Operators-Global-Functions.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="02-Overloading-Assignment-Operator" ConfigName="Debug"/>
       <Project Name="03-Overloading-Assignment-Move" ConfigName="Debug"/>
       <Project Name="04-Overloading-Operators-Member-Functions" ConfigName="Debug"/>
+      <Project Name="05-Overloading-Operators-Global-Functions" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="02-Overloading-Assignment-Operator" ConfigName="Release"/>
       <Project Name="03-Overloading-Assignment-Move" ConfigName="Release"/>
       <Project Name="04-Overloading-Operators-Member-Functions" ConfigName="Release"/>
+      <Project Name="05-Overloading-Operators-Global-Functions" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
