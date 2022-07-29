@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Inheritance" Database="" Version="10000">
   <Project Name="01-Deriving-Classes" Path="01-Deriving-Classes/01-Deriving-Classes.project" Active="No"/>
-  <Project Name="02-Protected-Members" Path="02-Protected-Members/02-Protected-Members.project" Active="Yes"/>
+  <Project Name="02-Protected-Members" Path="02-Protected-Members/02-Protected-Members.project" Active="No"/>
+  <Project Name="03-Constructors-Destructors" Path="03-Constructors-Destructors/03-Constructors-Destructors.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Deriving-Classes" ConfigName="Debug"/>
       <Project Name="02-Protected-Members" ConfigName="Debug"/>
+      <Project Name="03-Constructors-Destructors" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Deriving-Classes" ConfigName="Release"/>
       <Project Name="02-Protected-Members" ConfigName="Release"/>
+      <Project Name="03-Constructors-Destructors" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
