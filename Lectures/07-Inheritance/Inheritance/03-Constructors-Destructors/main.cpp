@@ -12,23 +12,23 @@ public:
 };
 
 class Derived:public Base{
+    using Base::Base;
 private:
     int doubled_value;
 
 public:
-//    Derived():doubled_value {0} {cout<<"Derived no args cons."<<endl;}
-//    Derived(int x):doubled_value(x*2){cout<<"Derived int overloaded cons"<<endl;}
-//    ~Derived(){ cout<<"Derived destructort"<<endl;}
+    Derived():doubled_value {0} {cout<<"Derived no args cons."<<endl;}
+    Derived(int x):doubled_value(x*2){cout<<"Derived int overloaded cons"<<endl;}
+    ~Derived(){ cout<<"Derived destructort"<<endl;}
 };
 
 int main()
 {
-    Base base;
+//    Base base;
+//    Derived der;// first base constructor second deriveds cons.
+    Derived d{100};
 
 
-//    std::cout<<"\n---------------Derived class---------------\n"<<std::endl;
-
-//    Derived der;
 
 
 	return 0;
