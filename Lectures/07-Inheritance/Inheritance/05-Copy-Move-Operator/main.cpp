@@ -26,7 +26,7 @@ public:
 };
 
 class Derived:public Base{
-    using Base::Base;
+
 private:
     int doubled_value;
 
@@ -36,7 +36,17 @@ public:
 
     Derived(const Derived &other)
     : Base(other), doubled_value{other.doubled_value} {
-            cout<<"Derived copy constructor";
+            cout<<"Derived copy constructor"<<endl;
+    }
+
+    Derived &operator=(const Derived &righths){
+        cout<<"Derived operator = "<<endl;
+        if(this==&righths){
+            return *this;
+        }
+        Base::operator=(righths);
+        doubled_value=righths.doubled_value;
+        return *this;
     }
 
     ~Derived(){ cout<<"Derived destructort"<<endl;}
@@ -49,10 +59,12 @@ int main()
     b=b1;       //Copy assignment
 
     cout<<"\n"<<endl;
-//
-//    Derived d{100}; //Overloaded constructor
-//    Derived d1{d}; //Copy constructor
-//    d=d1;          //Copy assignment
+
+    Derived d{100}; //Overloaded constructor
+    Derived d1{d}; //Copy constructor
+    d=d1;          //Copy assignment
+
+    cout<<"\n"<<endl;
 
 	return 0;
 }
