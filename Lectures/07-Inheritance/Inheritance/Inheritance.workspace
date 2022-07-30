@@ -3,7 +3,8 @@
   <Project Name="01-Deriving-Classes" Path="01-Deriving-Classes/01-Deriving-Classes.project" Active="No"/>
   <Project Name="02-Protected-Members" Path="02-Protected-Members/02-Protected-Members.project" Active="No"/>
   <Project Name="03-Constructors-Destructors" Path="03-Constructors-Destructors/03-Constructors-Destructors.project" Active="No"/>
-  <Project Name="04-Passing-Arguments-to-Base-Constructors" Path="04-Passing-Arguments-to-Base-Constructors/04-Passing-Arguments-to-Base-Constructors.project" Active="Yes"/>
+  <Project Name="04-Passing-Arguments-to-Base-Constructors" Path="04-Passing-Arguments-to-Base-Constructors/04-Passing-Arguments-to-Base-Constructors.project" Active="No"/>
+  <Project Name="05-Copy-Move-Operator" Path="05-Copy-Move-Operator/05-Copy-Move-Operator.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="02-Protected-Members" ConfigName="Debug"/>
       <Project Name="03-Constructors-Destructors" ConfigName="Debug"/>
       <Project Name="04-Passing-Arguments-to-Base-Constructors" ConfigName="Debug"/>
+      <Project Name="05-Copy-Move-Operator" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="02-Protected-Members" ConfigName="Release"/>
       <Project Name="03-Constructors-Destructors" ConfigName="Release"/>
       <Project Name="04-Passing-Arguments-to-Base-Constructors" ConfigName="Release"/>
+      <Project Name="05-Copy-Move-Operator" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
