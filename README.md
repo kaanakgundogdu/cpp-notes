@@ -10,3 +10,5 @@ Lectures:<br>
 - [Pointers](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/04-Pointers/Pointers)
 - [Classes](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/05-Classes/Classes)
 - [Operator-Overloading](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/06-Operator-Overloading/Operator-Overloading)
+- [Inheritance](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/07-Inheritance/Inheritance)
+
