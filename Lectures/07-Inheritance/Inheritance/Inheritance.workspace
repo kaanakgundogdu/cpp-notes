@@ -6,7 +6,8 @@
   <Project Name="04-Passing-Arguments-to-Base-Constructors" Path="04-Passing-Arguments-to-Base-Constructors/04-Passing-Arguments-to-Base-Constructors.project" Active="No"/>
   <Project Name="05-Copy-Move-Operator" Path="05-Copy-Move-Operator/05-Copy-Move-Operator.project" Active="No"/>
   <Project Name="06-Redefining-Base-Class-Methods" Path="06-Redefining-Base-Class-Methods/06-Redefining-Base-Class-Methods.project" Active="No"/>
-  <Project Name="07-Updated-Accounts" Path="07-Updated-Accounts/07-Updated-Accounts.project" Active="Yes"/>
+  <Project Name="07-Updated-Accounts" Path="07-Updated-Accounts/07-Updated-Accounts.project" Active="No"/>
+  <Project Name="08-Challenge-Answer" Path="08-Challenge-Answer/08-Challenge-Answer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -17,6 +18,7 @@
       <Project Name="05-Copy-Move-Operator" ConfigName="Debug"/>
       <Project Name="06-Redefining-Base-Class-Methods" ConfigName="Debug"/>
       <Project Name="07-Updated-Accounts" ConfigName="Debug"/>
+      <Project Name="08-Challenge-Answer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -27,6 +29,7 @@
       <Project Name="05-Copy-Move-Operator" ConfigName="Release"/>
       <Project Name="06-Redefining-Base-Class-Methods" ConfigName="Release"/>
       <Project Name="07-Updated-Accounts" ConfigName="Release"/>
+      <Project Name="08-Challenge-Answer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
