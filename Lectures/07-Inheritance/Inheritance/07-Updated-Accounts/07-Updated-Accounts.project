@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="01-Deriving-Classes" Version="11000" InternalType="User templates">
+<CodeLite_Project Name="07-Updated-Accounts" Version="11000" InternalType="User templates">
   <Description/>
   <Dependencies/>
   <Settings Type="Executable">
@@ -93,8 +93,10 @@
     </Configuration>
   </Settings>
   <VirtualDirectory Name="src">
-    <File Name="Savings_Account.cpp"/>
-    <File Name="Savings_Account.h"/>
+    <File Name="Account_Util.cpp"/>
+    <File Name="Account_Util.h"/>
+    <File Name="Saving_Account.cpp"/>
+    <File Name="Saving_Account.h"/>
     <File Name="Account.cpp"/>
     <File Name="Account.h"/>
     <File Name="main.cpp"/>
