@@ -23,13 +23,17 @@ int main()
 
     vector<Trust_Account> trust_accounts;
     trust_accounts.push_back(Trust_Account{});
-    trust_accounts.push_back(Trust_Account{"Beppo"});
-    trust_accounts.push_back(Trust_Account{"Appoo",2000});
-    trust_accounts.push_back(Trust_Account{"Law",5000,2.0});
+    trust_accounts.push_back(Trust_Account{"Beppo",10000,5.0});
+    trust_accounts.push_back(Trust_Account{"Appoo",20000,4.0});
+    trust_accounts.push_back(Trust_Account{"Law",30000});
 
     display(trust_accounts);
-    deposit(trust_accounts,5000);
-    withdraw(trust_accounts,2000);
+    deposit(trust_accounts,1000);
+    withdraw(trust_accounts,3000);
+
+    for(int i=1; i<=5;i++){
+        withdraw(trust_accounts,1000);
+    }
 
 	return 0;
 }
