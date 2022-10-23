@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="Polymorphism" Database="" Version="10000">
   <Project Name="01-Basics" Path="01-Basics/01-Basics.project" Active="No"/>
   <Project Name="02-Virtual-Functions" Path="02-Virtual-Functions/02-Virtual-Functions.project" Active="No"/>
-  <Project Name="03-Override-Specifier" Path="Override-Specifier/Override-Specifier.project" Active="Yes"/>
+  <Project Name="03-Override-Specifier" Path="Override-Specifier/Override-Specifier.project" Active="No"/>
+  <Project Name="04-Base-Class-References" Path="04-Base-Class-References/04-Base-Class-References.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Basics" ConfigName="Debug"/>
       <Project Name="02-Virtual-Functions" ConfigName="Debug"/>
       <Project Name="03-Override-Specifier" ConfigName="Debug"/>
+      <Project Name="04-Base-Class-References" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Basics" ConfigName="Release"/>
       <Project Name="02-Virtual-Functions" ConfigName="Release"/>
       <Project Name="03-Override-Specifier" ConfigName="Release"/>
+      <Project Name="04-Base-Class-References" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
