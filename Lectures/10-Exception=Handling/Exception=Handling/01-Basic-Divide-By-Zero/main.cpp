@@ -24,7 +24,7 @@ int main()
         std::cerr<<"You can't divide by zero"<<std::endl;
     }
     
-    std::cerr<<"Sayanora!"<<std::endl;
+    std::cout<<"Sayanora!"<<std::endl;
 
 	return 0;
 }
