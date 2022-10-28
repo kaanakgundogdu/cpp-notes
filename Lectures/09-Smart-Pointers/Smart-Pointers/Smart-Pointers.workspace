@@ -3,7 +3,8 @@
   <Project Name="01-Unique-Pointers" Path="01-Unique-Pointers/01-Unique-Pointers.project" Active="No"/>
   <Project Name="02-Shared-Pointers" Path="02-Shared-Pointers/02-Shared-Pointers.project" Active="No"/>
   <Project Name="03-Weak-Pointers" Path="03-Weak-Pointers/03-Weak-Pointers.project" Active="No"/>
-  <Project Name="04-Custom-Deleters" Path="04-Custom-Deleters/04-Custom-Deleters.project" Active="Yes"/>
+  <Project Name="04-Custom-Deleters" Path="04-Custom-Deleters/04-Custom-Deleters.project" Active="No"/>
+  <Project Name="05-Challenge-Answer" Path="05-Challenge-Answer/05-Challenge-Answer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="02-Shared-Pointers" ConfigName="Debug"/>
       <Project Name="03-Weak-Pointers" ConfigName="Debug"/>
       <Project Name="04-Custom-Deleters" ConfigName="Debug"/>
+      <Project Name="05-Challenge-Answer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="02-Shared-Pointers" ConfigName="Release"/>
       <Project Name="03-Weak-Pointers" ConfigName="Release"/>
       <Project Name="04-Custom-Deleters" ConfigName="Release"/>
+      <Project Name="05-Challenge-Answer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
