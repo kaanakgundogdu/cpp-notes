@@ -3,7 +3,8 @@
   <Project Name="01-Basic-Divide-By-Zero" Path="01-Basic-Divide-By-Zero/01-Basic-Divide-By-Zero.project" Active="No"/>
   <Project Name="02-Throwing-Exception-from-Function" Path="02-Throwing-Exception-from-Function/02-Throwing-Exception-from-Function.project" Active="No"/>
   <Project Name="03-User-Defined-Exception-Classes" Path="03-User-Defined-Exception-Classes/03-User-Defined-Exception-Classes.project" Active="No"/>
-  <Project Name="04-Class-Level-Exception" Path="04-Class-Level-Exception/04-Class-Level-Exception.project" Active="Yes"/>
+  <Project Name="04-Class-Level-Exception" Path="04-Class-Level-Exception/04-Class-Level-Exception.project" Active="No"/>
+  <Project Name="05-Challenge-Answer" Path="05-Challenge-Answer/05-Challenge-Answer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="02-Throwing-Exception-from-Function" ConfigName="Debug"/>
       <Project Name="03-User-Defined-Exception-Classes" ConfigName="Debug"/>
       <Project Name="04-Class-Level-Exception" ConfigName="Debug"/>
+      <Project Name="05-Challenge-Answer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="02-Throwing-Exception-from-Function" ConfigName="Release"/>
       <Project Name="03-User-Defined-Exception-Classes" ConfigName="Release"/>
       <Project Name="04-Class-Level-Exception" ConfigName="Release"/>
+      <Project Name="05-Challenge-Answer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
