@@ -1,12 +1,19 @@
 #include <iostream>
 #include <string>
 
+class DivideByZeroException{
+    
+};
+class NegativeValueException{
+};
+
+
 double calculate_mpg(int miles,int gallons){
     if(gallons==0)
-        throw 0;
+        throw DivideByZeroException();
         
     if ( gallons<0 || miles<0){
-        throw std::string{"Negative value error"};
+        throw NegativeValueException();
     }
     return static_cast<double>(miles)/gallons;
 }
@@ -26,14 +33,16 @@ int main()
         miles_per_gallon=calculate_mpg(miles,gallons);
         std::cout<<"Result: "<<miles_per_gallon<<std::endl;      
     }
-    catch(int &ex){ 
+    catch(DivideByZeroException &ex){ 
         std::cerr<<"Can't divide by zero!"<<std::endl;
     }
-    catch(std::string &ex){
-        std::cerr<<ex<<std::endl;
+    catch(NegativeValueException&ex){
+        std::cerr<<"Negative value error"<<std::endl;
     }
     
     std::cout<<"Sayanora!"<<std::endl;
 
 	return 0;
 }
+
+

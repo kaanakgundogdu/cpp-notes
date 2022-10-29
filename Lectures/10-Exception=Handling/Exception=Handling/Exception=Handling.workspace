@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Exception=Handling" Database="" Version="10000">
   <Project Name="01-Basic-Divide-By-Zero" Path="01-Basic-Divide-By-Zero/01-Basic-Divide-By-Zero.project" Active="No"/>
-  <Project Name="02-Throwing-Exception-from-Function" Path="02-Throwing-Exception-from-Function/02-Throwing-Exception-from-Function.project" Active="Yes"/>
+  <Project Name="02-Throwing-Exception-from-Function" Path="02-Throwing-Exception-from-Function/02-Throwing-Exception-from-Function.project" Active="No"/>
+  <Project Name="03-User-Defined-Exception-Classes" Path="03-User-Defined-Exception-Classes/03-User-Defined-Exception-Classes.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Basic-Divide-By-Zero" ConfigName="Debug"/>
       <Project Name="02-Throwing-Exception-from-Function" ConfigName="Debug"/>
+      <Project Name="03-User-Defined-Exception-Classes" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Basic-Divide-By-Zero" ConfigName="Release"/>
       <Project Name="02-Throwing-Exception-from-Function" ConfigName="Release"/>
+      <Project Name="03-User-Defined-Exception-Classes" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
