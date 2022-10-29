@@ -12,7 +12,7 @@ Lectures:<br>
 - [Operator-Overloading](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/06-Operator-Overloading/Operator-Overloading)
 - [Inheritance](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/07-Inheritance/Inheritance)
 - [Polymorphism](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/08-Polymorphism/Polymorphism)
-- [Smart-Pointers](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/09-Smart-Pointers/Smart-Pointers)
-- [Exception=Handling](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/10-Exception%3DHandling/Exception%3DHandling)
+- [Smart Pointers](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/09-Smart-Pointers/Smart-Pointers)
+- [Exception Handling](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/10-Exception%3DHandling/Exception%3DHandling)
 
 
