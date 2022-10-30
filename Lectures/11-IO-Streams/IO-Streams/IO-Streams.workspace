@@ -2,19 +2,22 @@
 <CodeLite_Workspace Name="IO-Streams" Database="" Version="10000">
   <Project Name="01-Stream-Manipulators-Boolean" Path="01-Stream-Manipulators-Boolean/01-Stream-Manipulators-Boolean.project" Active="No"/>
   <Project Name="02-Stream-Manipulators-integers" Path="02-Stream-Manipulators-integers/02-Stream-Manipulators-integers.project" Active="No"/>
-  <Project Name="03-Stream-Manipulators-float" Path="03-Stream-Manipulators-float/03-Stream-Manipulators-float.project" Active="Yes"/>
+  <Project Name="03-Stream-Manipulators-float" Path="03-Stream-Manipulators-float/03-Stream-Manipulators-float.project" Active="No"/>
+  <Project Name="04-Align-and-Fill" Path="04-Align-and-Fill/04-Align-and-Fill.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Stream-Manipulators-Boolean" ConfigName="Debug"/>
       <Project Name="02-Stream-Manipulators-integers" ConfigName="Debug"/>
       <Project Name="03-Stream-Manipulators-float" ConfigName="Debug"/>
+      <Project Name="04-Align-and-Fill" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Stream-Manipulators-Boolean" ConfigName="Release"/>
       <Project Name="02-Stream-Manipulators-integers" ConfigName="Release"/>
       <Project Name="03-Stream-Manipulators-float" ConfigName="Release"/>
+      <Project Name="04-Align-and-Fill" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
