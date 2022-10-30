@@ -11,4 +11,8 @@ Lectures:<br>
 - [Classes](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/05-Classes/Classes)
 - [Operator-Overloading](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/06-Operator-Overloading/Operator-Overloading)
 - [Inheritance](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/07-Inheritance/Inheritance)
+- [Polymorphism](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/08-Polymorphism/Polymorphism)
+- [Smart Pointers](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/09-Smart-Pointers/Smart-Pointers)
+- [Exception Handling](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/10-Exception%3DHandling/Exception%3DHandling)
+
 
