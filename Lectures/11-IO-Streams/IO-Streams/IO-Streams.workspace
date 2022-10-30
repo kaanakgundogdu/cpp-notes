@@ -3,7 +3,8 @@
   <Project Name="01-Stream-Manipulators-Boolean" Path="01-Stream-Manipulators-Boolean/01-Stream-Manipulators-Boolean.project" Active="No"/>
   <Project Name="02-Stream-Manipulators-integers" Path="02-Stream-Manipulators-integers/02-Stream-Manipulators-integers.project" Active="No"/>
   <Project Name="03-Stream-Manipulators-float" Path="03-Stream-Manipulators-float/03-Stream-Manipulators-float.project" Active="No"/>
-  <Project Name="04-Align-and-Fill" Path="04-Align-and-Fill/04-Align-and-Fill.project" Active="Yes"/>
+  <Project Name="04-Align-and-Fill" Path="04-Align-and-Fill/04-Align-and-Fill.project" Active="No"/>
+  <Project Name="05-Challenge-1-Answer" Path="05-Challenge-1-Answer/05-Challenge-1-Answer.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="02-Stream-Manipulators-integers" ConfigName="Debug"/>
       <Project Name="03-Stream-Manipulators-float" ConfigName="Debug"/>
       <Project Name="04-Align-and-Fill" ConfigName="Debug"/>
+      <Project Name="05-Challenge-1-Answer" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="02-Stream-Manipulators-integers" ConfigName="Release"/>
       <Project Name="03-Stream-Manipulators-float" ConfigName="Release"/>
       <Project Name="04-Align-and-Fill" ConfigName="Release"/>
+      <Project Name="05-Challenge-1-Answer" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
