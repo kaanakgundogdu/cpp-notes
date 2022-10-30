@@ -19,9 +19,16 @@ int main()
     }
     
     try{
-        std::unique_ptr<Account> fujis_account=std::make_unique<Trust_Account>("Fuji",5000,2.3);
+        std::unique_ptr<Account> fujis_account=std::make_unique<Savings_Account>("Fuji",5000,2.3);
+        
+        fujis_account->withdraw(1000);
+        std::cout<<*fujis_account<<std::endl;
+
         fujis_account->withdraw(100000);
         std::cout<<*fujis_account<<std::endl;
+    }
+    catch(const IllegalBalanceException &ex){
+        std::cerr<<ex.what()<<std::endl;
     }
     catch(const InsufficentFundsException &ex){
         std::cerr<<ex.what()<<std::endl;

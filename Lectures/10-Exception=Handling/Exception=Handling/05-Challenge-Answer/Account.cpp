@@ -29,7 +29,6 @@ bool Account::withdraw(double amount){
     }
     else{
         throw InsufficentFundsException{};
-        return false;
     }
 }
 /*
