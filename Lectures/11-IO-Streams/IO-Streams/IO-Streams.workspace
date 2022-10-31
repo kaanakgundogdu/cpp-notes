@@ -5,7 +5,8 @@
   <Project Name="03-Stream-Manipulators-float" Path="03-Stream-Manipulators-float/03-Stream-Manipulators-float.project" Active="No"/>
   <Project Name="04-Align-and-Fill" Path="04-Align-and-Fill/04-Align-and-Fill.project" Active="No"/>
   <Project Name="05-Challenge-1-Answer" Path="05-Challenge-1-Answer/05-Challenge-1-Answer.project" Active="No"/>
-  <Project Name="06-Reading-from--Text-File" Path="06-Reading-from--Text-File/06-Reading-from--Text-File.project" Active="Yes"/>
+  <Project Name="06-Reading-from--Text-File" Path="06-Reading-from--Text-File/06-Reading-from--Text-File.project" Active="No"/>
+  <Project Name="07-Shakespeare-Poem" Path="07-Shakespeare-Poem/07-Shakespeare-Poem.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -15,6 +16,7 @@
       <Project Name="04-Align-and-Fill" ConfigName="Debug"/>
       <Project Name="05-Challenge-1-Answer" ConfigName="Debug"/>
       <Project Name="06-Reading-from--Text-File" ConfigName="Debug"/>
+      <Project Name="07-Shakespeare-Poem" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -24,6 +26,7 @@
       <Project Name="04-Align-and-Fill" ConfigName="Release"/>
       <Project Name="05-Challenge-1-Answer" ConfigName="Release"/>
       <Project Name="06-Reading-from--Text-File" ConfigName="Release"/>
+      <Project Name="07-Shakespeare-Poem" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
