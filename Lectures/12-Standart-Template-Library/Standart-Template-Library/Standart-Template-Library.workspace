@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Standart-Template-Library" Database="" Version="10000">
   <Project Name="01-Function-Templates" Path="01-Function-Templates/01-Function-Templates.project" Active="No"/>
-  <Project Name="02-Class-Template" Path="02-Class-Template/02-Class-Template.project" Active="Yes"/>
+  <Project Name="02-Class-Template" Path="02-Class-Template/02-Class-Template.project" Active="No"/>
+  <Project Name="03-Generic-Array-Template-Class" Path="03-Generic-Array-Template-Class/03-Generic-Array-Template-Class.project" Active="No"/>
+  <Project Name="04-Iterators" Path="04-Iterators/04-Iterators.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Function-Templates" ConfigName="Debug"/>
       <Project Name="02-Class-Template" ConfigName="Debug"/>
+      <Project Name="03-Generic-Array-Template-Class" ConfigName="Debug"/>
+      <Project Name="04-Iterators" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Function-Templates" ConfigName="Release"/>
       <Project Name="02-Class-Template" ConfigName="Release"/>
+      <Project Name="03-Generic-Array-Template-Class" ConfigName="Release"/>
+      <Project Name="04-Iterators" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
