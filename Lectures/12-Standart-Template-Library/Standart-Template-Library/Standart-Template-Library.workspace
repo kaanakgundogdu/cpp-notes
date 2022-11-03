@@ -4,7 +4,9 @@
   <Project Name="02-Class-Template" Path="02-Class-Template/02-Class-Template.project" Active="No"/>
   <Project Name="03-Generic-Array-Template-Class" Path="03-Generic-Array-Template-Class/03-Generic-Array-Template-Class.project" Active="No"/>
   <Project Name="04-Iterators" Path="04-Iterators/04-Iterators.project" Active="No"/>
-  <Project Name="05-Algorithms" Path="05-Algorithms/05-Algorithms.project" Active="Yes"/>
+  <Project Name="05-Algorithms" Path="05-Algorithms/05-Algorithms.project" Active="No"/>
+  <Project Name="06-Arrays" Path="06-Arrays/06-Arrays.project" Active="No"/>
+  <Project Name="07-Vectors" Path="07-Vectors/07-Vectors.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -13,6 +15,8 @@
       <Project Name="03-Generic-Array-Template-Class" ConfigName="Debug"/>
       <Project Name="04-Iterators" ConfigName="Debug"/>
       <Project Name="05-Algorithms" ConfigName="Debug"/>
+      <Project Name="06-Arrays" ConfigName="Debug"/>
+      <Project Name="07-Vectors" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -21,6 +25,8 @@
       <Project Name="03-Generic-Array-Template-Class" ConfigName="Release"/>
       <Project Name="04-Iterators" ConfigName="Release"/>
       <Project Name="05-Algorithms" ConfigName="Release"/>
+      <Project Name="06-Arrays" ConfigName="Release"/>
+      <Project Name="07-Vectors" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
