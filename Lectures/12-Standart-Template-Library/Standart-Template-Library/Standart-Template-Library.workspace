@@ -11,7 +11,8 @@
   <Project Name="09-Challenge-1-Answer" Path="09-Challenge-1-Answer/09-Challenge-1-Answer.project" Active="No"/>
   <Project Name="10-List-Forward-List" Path="10-List-Forward-List/10-List-Forward-List.project" Active="No"/>
   <Project Name="11-Challenge-2" Path="11-Challenge-2/11-Challenge-2.project" Active="No"/>
-  <Project Name="12-Sets" Path="12-Sets/12-Sets.project" Active="Yes"/>
+  <Project Name="12-Sets" Path="12-Sets/12-Sets.project" Active="No"/>
+  <Project Name="13-Maps" Path="13-Maps/13-Maps.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -27,6 +28,7 @@
       <Project Name="10-List-Forward-List" ConfigName="Debug"/>
       <Project Name="11-Challenge-2" ConfigName="Debug"/>
       <Project Name="12-Sets" ConfigName="Debug"/>
+      <Project Name="13-Maps" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -42,6 +44,7 @@
       <Project Name="10-List-Forward-List" ConfigName="Release"/>
       <Project Name="11-Challenge-2" ConfigName="Release"/>
       <Project Name="12-Sets" ConfigName="Release"/>
+      <Project Name="13-Maps" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
