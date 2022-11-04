@@ -8,7 +8,9 @@
   <Project Name="06-Arrays" Path="06-Arrays/06-Arrays.project" Active="No"/>
   <Project Name="07-Vectors" Path="07-Vectors/07-Vectors.project" Active="No"/>
   <Project Name="08-Deque" Path="08-Deque/08-Deque.project" Active="No"/>
-  <Project Name="09-Challenge-1-Answer" Path="09-Challenge-1-Answer/09-Challenge-1-Answer.project" Active="Yes"/>
+  <Project Name="09-Challenge-1-Answer" Path="09-Challenge-1-Answer/09-Challenge-1-Answer.project" Active="No"/>
+  <Project Name="10-List-Forward-List" Path="10-List-Forward-List/10-List-Forward-List.project" Active="No"/>
+  <Project Name="11-Challenge-2" Path="11-Challenge-2/11-Challenge-2.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
@@ -21,6 +23,8 @@
       <Project Name="07-Vectors" ConfigName="Debug"/>
       <Project Name="08-Deque" ConfigName="Debug"/>
       <Project Name="09-Challenge-1-Answer" ConfigName="Debug"/>
+      <Project Name="10-List-Forward-List" ConfigName="Debug"/>
+      <Project Name="11-Challenge-2" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -33,6 +37,8 @@
       <Project Name="07-Vectors" ConfigName="Release"/>
       <Project Name="08-Deque" ConfigName="Release"/>
       <Project Name="09-Challenge-1-Answer" ConfigName="Release"/>
+      <Project Name="10-List-Forward-List" ConfigName="Release"/>
+      <Project Name="11-Challenge-2" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
