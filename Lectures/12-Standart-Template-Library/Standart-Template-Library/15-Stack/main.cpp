@@ -3,7 +3,6 @@
 #include <vector>
 #include <list>
 
-
 // pass by value to display stack
 // bc for displaying stack you have to pop elements.
 template <typename T>
