@@ -16,5 +16,7 @@ Lectures:<br>
 - [Exception Handling](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/10-Exception%3DHandling/Exception%3DHandling)
 - [IO Streams](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/11-IO-Streams/IO-Streams)
 - [Standart Template Library](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/12-Standart-Template-Library/Standart-Template-Library)
+- [Lambda Expression](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/13-Lambda-Expression/Lambda-Expression)
+- [Enumerations](https://github.com/kaanakgundogdu/cpp-notes/tree/main/Lectures/14-Enumerations/Enumerations)
 
 
