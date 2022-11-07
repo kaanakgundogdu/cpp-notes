@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Enumerations" Database="" Version="10000">
-  <Project Name="01-Unscoped-Enumerations" Path="01-Unscoped-Enumerations/01-Unscoped-Enumerations.project" Active="Yes"/>
+  <Project Name="01-Unscoped-Enumerations" Path="01-Unscoped-Enumerations/01-Unscoped-Enumerations.project" Active="No"/>
+  <Project Name="02-Scoped-Enumeration" Path="02-Scoped-Enumeration/02-Scoped-Enumeration.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
       <Environment/>
       <Project Name="01-Unscoped-Enumerations" ConfigName="Debug"/>
+      <Project Name="02-Scoped-Enumeration" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
       <Project Name="01-Unscoped-Enumerations" ConfigName="Release"/>
+      <Project Name="02-Scoped-Enumeration" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
